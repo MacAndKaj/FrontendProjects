@@ -34,9 +34,10 @@ hr {
     margin: 0 auto;
     backdrop-filter: blur(6px);
     background: rgba(255, 255, 255, 0.4);
-    height: 650px;
-    width: 650px;
+    height: 600px;
+    width: 600px;
     font-size: 0;
+    border-radius: 15px;
 }
 
 .button {
@@ -44,5 +45,74 @@ hr {
     background: aliceblue;
     height: 200px;
     width: 200px;
+}
+
+.button:hover {
+    background: rgba(240, 248, 255, 0.75);
+}
+
+.b-1 {
+    border-top: 0;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 0;
+    border-radius: 15px 0 0 0;
+}
+
+.b-2 {
+    border-top: 0;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+}
+
+.b-3 {
+    border-top: 0;
     border-right: 0;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+    border-radius: 0 15px 0 0;
+}
+.b-4 {
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 0;
+}
+
+.b-5 {
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+}
+
+.b-6 {
+    border-top: 5px solid;
+    border-right: 0;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+}
+
+.b-7 {
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 0 0 0 15px;
+}
+
+.b-8 {
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 0;
+    border-left: 5px solid;
+}
+
+.b-9 {
+    border-top: 5px solid;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 5px solid;
+    border-radius: 0 0 15px 0;
 }
