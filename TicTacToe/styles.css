@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
 
 html {
     height: 100%;
@@ -40,6 +41,10 @@ hr {
     border-radius: 15px;
 }
 
+.buttons-row {
+    display: flex;
+}
+
 .button {
     backdrop-filter: blur(6px);
     background: aliceblue;
@@ -49,6 +54,16 @@ hr {
 
 .button:hover {
     background: rgba(240, 248, 255, 0.75);
+}
+
+.restart-button {
+    backdrop-filter: blur(6px);
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    background: #2a6e9d;
+    border-radius: 10px;
+    color: aliceblue;
 }
 
 .b-1 {
@@ -115,4 +130,10 @@ hr {
     border-bottom: 0;
     border-left: 5px solid;
     border-radius: 0 0 15px 0;
+}
+
+.material-symbols-outlined.extended {
+    font-size: 180px;
+    vertical-align: center;
+    horiz-align: center;
 }
