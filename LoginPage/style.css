@@ -1,0 +1,42 @@
+body {
+    background: #dcffed;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.container {
+    background: white;
+    backdrop-filter: blur(30px);
+    border: gray solid 3px;
+    border-radius: 10px;
+    margin: 20% auto auto auto;
+    justify-content: center;
+    padding: 20px;
+    align-content: center;
+}
+
+.logo {
+    display: inline;
+    align-content: center;
+}
+
+.input-box {
+    justify-content: center;
+}
+
+.user-input {
+    margin: auto;
+}
+
+label {
+    display: block;
+}
+
+.login-button {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 80%;
+    display: block;
+}

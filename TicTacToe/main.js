@@ -103,6 +103,7 @@ class Game {
             const win = winningSet.every(val => playerFields.includes(val));
             if (win) {
                 this.winner = "PLAYER";
+                window.alert("PLAYER WINS!");
                 return;
             }
         }
@@ -112,6 +113,7 @@ class Game {
             const win = winningSet.every(val => computerFields.includes(val));
             if (win) {
                 this.winner = "COMPUTER";
+                window.alert("COMPUTER WINS!")
                 return;
             }
         }
